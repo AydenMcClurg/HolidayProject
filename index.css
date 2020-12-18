@@ -1,0 +1,14 @@
+body {
+    background: url("https://files.slack.com/files-pri/TSJ4J3C2H-F01GWPK1ECE/image.png");
+    color: white;
+}
+
+header {
+    background: white;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+div .col-sm{
+    margin: 10px;
+}
