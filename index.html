@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Holiday</title>
     <link rel="stylesheet" href="index.css">
-    
+    <script src="chrismas.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
 <body>
@@ -39,9 +39,7 @@
                 </div>
                 <div class="col-sm ">
                     <div class="position-absolute top-0 end-0">
-                        <script>
-                            //-------------------------timer--------------------------
-                        </script>
+                           
                     </div>
                 </div>
             </div>
@@ -67,17 +65,18 @@
     </div>
 
     <div class="col-sm">
-    <div class="card" style="width: 18rem;">
-    <img src="https://cdn.britannica.com/s:900x675,c:crop/79/202379-131-1EEF7D5C/Christmas-tree-holiday-pine.jpg" class="card-img-top" alt="christmas tree">
-    <div class="card-body">
-        <p class="card-text">"Freshly cut Christmas trees
-             smelling of stars and 
-            snow and pine resin—inhale
-             deeply and fill your soul with wintry night."
-            - John J. Geddes</p>
-    </div>
-    </div>
-    </div>
+        <div class="card" style="width: 18rem;">
+            <img src="RGB_lights.jpg" class="card-img-top" alt="Govee RGB light strips H6117">
+            <img src="playStation5.jpg" class="card-img-top" alt="ps5">
+            <div class="card-body">
+            <h5 class="card-title">Ayden's Wish List</h5>
+            <p class="card-text"><ol>RGB Lights</ol></p>
+            <p class="card-text"><ol>Playstation 5</ol></p>
+            <a href="https://www.amazon.com/gp/product/B07N1BVVC7?pf_rd_r=V49WWCSHGY5XMR0B14CP&pf_rd_p=9d9090dd-8b99-4ac3-b4a9-90a1db2ef53b" class="btn btn-primary">Buy the RGB_lights</a>
+            <a href="https://www.target.com/c/playstation-5-video-games/-/N-hj96d?lnk=snav_rd_playstation_5" class="btn btn-primary">Buy the PS5</a>
+            </div>
+            </div>
+       </div>
 
     <!-- Kevin -->
     <div class="col-sm">
@@ -102,7 +101,7 @@
     <div class="row">
 
     <div class="col-sm">
-    <div class="card" style="width: 18rem;">
+    <div href="#Adrian" class="card" style="width: 18rem;">
         <img src="raspberry_pi_4.jpg" class="card-img-top" alt="raspberry-pi-4-model-b">
         <img src="autrix_magic_star_cube.png" class="card-img-top" alt="autrix_magic_star_cube">
         <div class="card-body">
@@ -142,52 +141,15 @@
     </div>
 
 </div>
-
-    </div>
-    <!-- Ayden -->
-    <div class="row">
-
-    <div class="col-sm">
-        <div class="card" style="width: 18rem;">
-            <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/9/17/0/FN_Gluten-Free-Gingerbread-Men_s4x3.jpg.rend.hgtvcom.826.620.suffix/1411086795621.jpeg" class="card-img-top" alt="gingerbread man">
-            <div class="card-body">
-              <p class="card-text">"Seeing is believing, but sometimes
-                   the most real things in the world are 
-                   the things we can't see." - 'The Polar Express'</p>
-            </div>
-          </div></div>
-    
-    <div class="col-sm">
-    <div class="card" style="width: 18rem;">
-        <img src="RGB_lights.jpg" class="card-img-top" alt="Govee RGB light strips H6117">
-        <img src="playStation5.jpg" class="card-img-top" alt="ps5">
-        <div class="card-body">
-        <h5 class="card-title">Ayden's Wish List</h5>
-        <p class="card-text"><ol>RGB Lights</ol></p>
-        <p class="card-text"><ol>Playstation 5</ol></p>
-        <a href="https://www.amazon.com/gp/product/B07N1BVVC7?pf_rd_r=V49WWCSHGY5XMR0B14CP&pf_rd_p=9d9090dd-8b99-4ac3-b4a9-90a1db2ef53b" class="btn btn-primary">Buy the RGB_lights</a>
-        <a href="https://www.target.com/c/playstation-5-video-games/-/N-hj96d?lnk=snav_rd_playstation_5" class="btn btn-primary">Buy the PS5</a>
-        </div>
-        </div>
-   </div>
-
-   <div class="col-sm">
-        <div class="card" style="width: 18rem;">
-                <img src="https://images-na.ssl-images-amazon.com/images/I/81cTtAZzlQL._AC_SL1500_.jpg" class="card-img-top" alt="coffee and cookies">
-                <div class="card-body">
-                  <p class="card-text">
-                        "Christmas will always be as long as we 
-                        stand heart to heart and hand in hand."
-                        - Dr. Seuss
-                  </p>
-                </div>
-              </div>
-   </div>
-    
-</div>    
-
+<hr>
+     
+<div id="Time">
+<p class="cast" style="text-align: center; font-size: 60px;">
+    Christmas Countdown
+</p>
+<p id="Clock" class="cast" style="text-align: center; font-size: 60px"></p>
 </div>
-
+        </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
